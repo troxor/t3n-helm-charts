@@ -122,6 +122,9 @@ extraVolumeMounts: []
   #   mountPath: /certs
   #   subPath: cafile
 
+## Additional arbitrary resources to deploy
+extraDeploy: []
+
 monitoring:
   podMonitor:
     enabled: false
